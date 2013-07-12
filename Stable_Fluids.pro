@@ -10,7 +10,7 @@ QT       += opengl
 TARGET = Stable_Fluids
 TEMPLATE = app
 
-CONFIG += c++11
+QMAKE_CXXFLAGS += -std=c++11
 
 INCLUDEPATH += C:\code\eigen-eigen-2249f9c22fe8
 
